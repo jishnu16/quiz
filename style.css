@@ -1,0 +1,21 @@
+.text_box {
+	background-color: #FFFEDE;
+	height: 25px;
+	width: 200px;
+}
+
+.button{
+	border-style: none;
+	background-color: #8260FF;
+	color: #FFF;
+	height: 30px;
+	width: 80px;
+	padding: 5px;
+}
+
+.button:hover {
+	background-color: #FFF;
+	color: #8260FF;
+	font-weight: 700;
+	box-shadow: 0 5px 5px 0 #6F7F7D; 
+}

@@ -31,4 +31,14 @@
 	width: 1200px;
 	height: auto;
 	box-shadow: 0 5px 5px 0 #6F7F7D;
+	padding: 20px;
+}
+
+.rs{
+	background-color: #63BAE8;
+	margin: 0 auto;
+	width: 600px;
+	height: auto;
+	box-shadow: 0 5px 5px 0 #6F7F7D;
+	padding: 20px;
 }

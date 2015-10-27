@@ -4,14 +4,23 @@
 	<title> Welcome ... ! </title>
 	<link href="style/style.css" rel="stylesheet" />
 	<link href="style/type.css" rel="stylesheet" />
+	<script src="scripts/script.js" type="text/javascript"></script>
+	
 </head>
 <body>
 	<h2>Let's Have A Quiz</h2>
-	<p align="center" > <b> Name : </b>
-		<input type="text" class="text_box" placeholder="enter your name " required="required"/>  
-		<input type="submit" value="Submit" class="button" />
-		<input type="Submit" value="Start Playing" class="button" />
+	<p id="showName" align="center"></p>
+	<p align="center" class="introduction">
+		<input type="text" class="text_box" id="name" placeholder="enter your name " required="required"/>  
+		<input type="submit" value="Submit" id="submitButton" class="button" onclick="storeTheName()" />
+
+		<input type="Submit" value="Start Playing" id="start" class="button" hidden="false" onclick="showQuestion()" />
 	</p>
 
+	<section id="questions" class="qs" hidden="true">
+		<!--  Sample questions -->
+	</section>
+
+	
 </body>
 </html>

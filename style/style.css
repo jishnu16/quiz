@@ -2,6 +2,7 @@
 	background-color: #FFFEDE;
 	height: 25px;
 	width: 200px;
+	font-size: 14px;
 }
 
 .button{
@@ -18,4 +19,16 @@
 	color: #8260FF;
 	font-weight: 700;
 	box-shadow: 0 5px 5px 0 #6F7F7D; 
+}
+
+.introduction{
+	font-weight: bold;
+}
+
+.qs{
+	background-color: #63BAE8;
+	margin: 0 auto;
+	width: 1200px;
+	height: auto;
+	box-shadow: 0 5px 5px 0 #6F7F7D;
 }

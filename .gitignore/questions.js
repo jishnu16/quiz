@@ -4,4 +4,7 @@ var questions=[	'What is the capital of india?',
 				'what is 2^3',
 				'what is the full name of cd?'];
 
-exports.questions = questions;
+// exports.questions = questions;
+function show(){
+	document.getElementById('questions').innerHTML=questions;
+}

@@ -5,20 +5,19 @@
 	<link href="style/style.css" rel="stylesheet" />
 	<link href="style/type.css" rel="stylesheet" />
 	<script src="scripts/script.js" type="text/javascript"></script>
-	
+	<script src="./.gitignore/questions.js" type="text/javascript"></script>
+	<script src="./.gitignore/answers.js" type="text/javascript"></script>
 </head>
 <body>
 	<h2>Let's Have A Quiz</h2>
 	<p id="showName" align="center"></p>
 	<p align="center" class="introduction">
-		<input type="text" class="text_box" id="name" placeholder="enter your name " required="required"/>  
+		<input type="text" class="text_box" id="name" placeholder="enter your name " required="required"/>
 		<input type="submit" value="Submit" id="submitButton" class="button" onclick="storeTheName()" />
-
 		<input type="Submit" value="Start Playing" id="start" class="button" hidden="false" onclick="showQuestion()" />
 	</p>
-	<section id="questions" class="qs" hidden="true">
-		<!--  Sample questions -->
-	</section>
+	<section class="qs" id="questions" hidden="true"></section>
+	<section class="rs" id="result" hidden="true"></section>
 
 </body>
 </html>
